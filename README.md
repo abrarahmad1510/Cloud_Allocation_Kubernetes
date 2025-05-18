@@ -39,6 +39,9 @@ Cloudit Allocation ML predicts workload demand and dynamically allocates resourc
 
 
 2. **Backend Setup**
-```cd backend
+```
+cd backend
 npm install
 pip install -r requirements.txt
+```
+
