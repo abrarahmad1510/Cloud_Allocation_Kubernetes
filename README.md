@@ -46,7 +46,21 @@ npm install
 pip install -r requirements.txt
 ```
 
-3. **Configure environment**
+3. **Configure Environment**
 
-- Copy ```env.example```
+- Copy ```env.example``` to ```.env``` in both backend and frontend.
+- Fill in cloud credentials and API keys.
 
+4. **Deployment**
+We use Terraform + Kubernetes + Docker:
+```
+# Provision cloud infra
+cd infra && terraform init && terraform apply
+
+# Build & push Docker images
+docker build -t cloudit/backend:latest ./backend
+docker build -t cloudit/frontend:latest ./frontend
+
+# Deploy to Kubernetes
+kubectl apply -f k8s/
+```
