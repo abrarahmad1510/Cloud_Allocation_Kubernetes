@@ -33,11 +33,11 @@ Cloudit Allocation ML predicts workload demand and dynamically allocates resourc
 ## 💾 Installation
 
 1. **Clone the repo**  
-   ```
-   bash
-   git clone https://github.com/your-org/cloudit-allocation-ml.git
-   cd cloudit-allocation-ml
-   ```
+```
+bash
+git clone https://github.com/your-org/cloudit-allocation-ml.git
+cd cloudit-allocation-ml
+```
    
 3. **Backend Setup**
 ```
