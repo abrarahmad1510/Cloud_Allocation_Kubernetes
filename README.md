@@ -47,5 +47,5 @@ pip install -r requirements.txt
 ```
 
 3. **Configure environment**
-   · Copy ```env.example```
+   - Copy ```env.example```
 
