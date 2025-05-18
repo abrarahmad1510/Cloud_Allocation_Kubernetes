@@ -64,3 +64,6 @@ docker build -t cloudit/frontend:latest ./frontend
 # Deploy to Kubernetes
 kubectl apply -f k8s/
 ```
+
+Thanks for reading!
+**This project is licensed under the MIT License**
